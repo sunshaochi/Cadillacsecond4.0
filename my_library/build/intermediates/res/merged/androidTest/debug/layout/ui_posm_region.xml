@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:orientation="horizontal"
+    android:background="@color/colorWhite">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_select_zone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/bg_grey"
+            android:text="全国"
+            android:textSize="20sp"
+            android:textColor="@color/colorRedText"/>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_grey">
+
+        <ListView
+            android:id="@+id/lv_zone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:divider="@color/colorDarkGreyLine">
+
+        </ListView>
+
+        <ListView
+            android:id="@+id/lv_subzone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:divider="@color/colorDarkGreyLine">
+
+        </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>

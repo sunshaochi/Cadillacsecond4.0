@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/title_act_layout"></include>
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/iv_user"
+            android:layout_centerInParent="true"
+            android:id="@+id/iv_search"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/icon_search"/>
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/iv_user"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@mipmap/icon_dealer"/>
+
+    </RelativeLayout>
+
+    <View style="@style/view_line" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_centerInParent="true"
+                android:textColor="#333333"
+                android:textSize="14sp"
+                android:text="地区"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/icon_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <View
+            android:layout_gravity="center_vertical"
+            android:layout_width="1dp"
+            android:layout_height="25dp"
+            style="@style/view_line"></View>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_centerInParent="true"
+                android:textColor="#333333"
+                android:textSize="14sp"
+                android:text="地区"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/icon_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <View
+            android:layout_gravity="center_vertical"
+            android:layout_width="1dp"
+            android:layout_height="25dp"
+            style="@style/view_line"></View>
+
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_centerInParent="true"
+                android:textColor="#333333"
+                android:textSize="14sp"
+                android:text="地区"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/icon_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <View
+        android:background="@color/colorBlackText"
+        style="@style/view_line"></View>
+
+<cadillac.example.com.cadillac.view.xrecyclerview.XRecyclerView
+    android:id="@+id/rcv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"></cadillac.example.com.cadillac.view.xrecyclerview.XRecyclerView>
+
+
+
+
+</LinearLayout>

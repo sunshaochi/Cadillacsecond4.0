@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorWhite">
+        <TextView
+            android:id="@+id/tv_quarter1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/colorRedText"
+            android:background="@drawable/bg_grey"
+            android:text="2017.Q1"
+            />
+
+        <TextView
+            android:id="@+id/tv_quarter2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlackText"
+            android:text="2016.Q4"
+            />
+
+        <TextView
+            android:id="@+id/tv_quarter3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlackText"
+            android:text="2016.Q3"
+            />
+
+        <TextView
+            android:id="@+id/tv_quarter4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlackText"
+            android:text="2016.Q2"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

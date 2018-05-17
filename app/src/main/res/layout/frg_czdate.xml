@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <View
+        android:layout_gravity="center_horizontal"
+        android:layout_width="210dp"
+       style="@style/view_line"></View>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="210dp"
+        android:layout_height="40dp">
+        <View
+            android:layout_height="match_parent"
+            android:layout_width="1sp"
+            style="@style/view_line"></View>
+
+        <TextView
+            android:background="@mipmap/biaoge"
+            style="@style/tv_datecome"
+            android:text="车型"
+            />
+        <View
+            android:layout_height="match_parent"
+            android:layout_width="1sp"
+            style="@style/view_line"></View>
+
+
+        <TextView
+            android:background="@mipmap/biaoge"
+            style="@style/tv_datecome"
+            android:text="订单数"
+            />
+        <View
+            android:layout_height="match_parent"
+            android:layout_width="1sp"
+            style="@style/view_line"></View>
+
+        <TextView
+            android:background="@mipmap/biaoge"
+            style="@style/tv_datecome"
+            android:text="月累计\n订单" />
+        <View
+            android:layout_height="match_parent"
+            android:layout_width="1sp"
+            style="@style/view_line"></View>
+
+    </LinearLayout>
+    <View
+        android:layout_gravity="center_horizontal"
+        android:layout_width="210dp"
+        style="@style/view_line"></View>
+    <cadillac.example.com.cadillac.view.CKITaskSETimeScrollView
+        android:scrollbars="none"
+        android:layout_gravity="center_horizontal"
+        android:divider="@null"
+        android:id="@+id/lv_czlv"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/ll_ck"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></LinearLayout>
+
+    </cadillac.example.com.cadillac.view.CKITaskSETimeScrollView>
+
+
+</LinearLayout>

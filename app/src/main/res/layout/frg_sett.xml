@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#e9e9e9">
+
+        <RelativeLayout
+            android:id="@+id/rl_finsh"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_lleft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:src="@mipmap/finsh" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_centerInParent="true"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:id="@+id/rl_sx"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_rright"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/image_sx" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_posm"
+                    style="@style/ll_dealers">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@mipmap/posm" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="POSM"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_help"
+                    style="@style/ll_dealers"
+                    android:layout_marginLeft="10dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@mipmap/help" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="帮助"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/ll_dealers"
+                    android:layout_marginLeft="10dp"></LinearLayout>
+
+                <LinearLayout
+                    style="@style/ll_dealers"
+                    android:layout_marginLeft="10dp"></LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="#F3F3F3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_myinfo"
+                    style="@style/tv_setcomtv"
+                    android:background="@drawable/item_bg"
+                    android:text="我的信息" />
+
+                <View
+                    style="@style/view_line"
+                    android:layout_marginLeft="15dp"></View>
+
+                <TextView
+                    android:id="@+id/tv_updatepwd"
+                    style="@style/tv_setcomtv"
+                    android:background="@drawable/item_bg"
+                    android:text="修改密码" />
+
+
+                <TextView
+                    android:id="@+id/tv_sq"
+                    style="@style/tv_setcomtv"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/item_bg"
+                    android:text="查看申请" />
+
+                <View
+                    android:id="@+id/view_lin1"
+                    style="@style/view_line"
+                    android:layout_height="1sp"
+                    android:layout_marginLeft="15dp"></View>
+
+                <TextView
+                    android:id="@+id/tv_mylove"
+                    style="@style/tv_setcomtv"
+                    android:background="@drawable/item_bg"
+                    android:text="我的喜好" />
+
+                <View
+                    style="@style/view_line"
+                    android:layout_height="1sp"
+                    android:layout_marginLeft="15dp"></View>
+
+                <TextView
+                    android:id="@+id/tv_loginout"
+                    style="@style/tv_setcomtv"
+                    android:background="@drawable/item_bg"
+                    android:text="安全退出" />
+
+                <View
+                    style="@style/view_line"
+                    android:layout_marginLeft="15dp"></View>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:orientation="horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorWhite">
+        <TextView
+            android:id="@+id/tv_opt_all"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/colorRedText"
+            android:background="@drawable/bg_grey"
+            android:text="全部"
+            />
+
+        <TextView
+            android:id="@+id/tv_opt_graded"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlackText"
+            android:text="已打分"
+            />
+
+        <TextView
+            android:id="@+id/tv_opt_to_grade"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlackText"
+            android:text="待打分"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

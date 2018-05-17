@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\workspace\iris\studio\Cadillacsecond4.0\my_library\src\main\assets"><file name="Province_City_District.xml" path="E:\workspace\iris\studio\Cadillacsecond4.0\my_library\src\main\assets\Province_City_District.xml"/></source><source path="E:\workspace\iris\studio\Cadillacsecond4.0\my_library\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="E:\workspace\iris\studio\Cadillacsecond4.0\my_library\src\release\assets"/></dataSet></merger>

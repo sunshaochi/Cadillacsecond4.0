@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="oneleftdate">
+
+        <item>新增进店 </item>
+        <item>二次进店</item>
+        <item>订单</item>
+        <item>交车</item>
+        <!--<item>月累计订单</item>-->
+        <item>订单率</item>
+        <item>留存</item>
+
+    </string-array>
+    <string-array name="onerightdate">
+
+        <item>新增到店意向数</item>
+        <item>第二次（含二次以上，但本月超过二次算一次）到店客户数</item>
+        <item>当天实际新增订单数</item>
+        <item>当天实际开票数</item>
+        <!--<item>月累计订单</item>-->
+        <item>新增订单数/新增进店数*100%</item>
+        <item>昨日留存数+当日新增订单数-当日交车数-当日退订数</item>
+    </string-array>
+
+
+
+    <string-array name="twoleftdate">
+        <item>新增进店 </item>
+        <item>二次进店</item>
+        <item>二次进店率</item>
+        <item>交车</item>
+        <item>订单交付率</item>
+        <item>试驾数</item>
+        <item>试驾率</item>
+    </string-array>
+
+
+
+    <string-array name="tworightdate">
+        <item>新增到店意向数</item>
+        <item>第二次（含二次以上，但本月超过二次算一次）到店客户数</item>
+        <item>二次进店数/新增进店数*100%</item>
+        <item>当天实际开票数</item>
+        <item>交车数/订单数*100%</item>
+        <item>有效的试乘试驾数（数据来源于 Cadillac Drive）</item>
+        <item>有效试乘试驾数/新增进店数*100%</item>
+    </string-array>
+
+
+    <string-array name="threeleftdate">
+        <item>退订 </item>
+        <item>退订率</item>
+        <item>信息上传数字</item>
+        <item>信息上传率</item>
+        <item>问卷填写</item>
+        <item>问卷填写率</item>
+
+    </string-array>
+
+
+
+    <string-array name="threerightdate">
+        <item>当日退订单数</item>
+        <item>退订单数/订单数*100%</item>
+        <item>试乘试驾信息上传数（数据来源于 Cadillac Drive）</item>
+        <item>试乘试驾信息上传数/总试乘试驾数*100%</item>
+        <item>问卷填写数（数据来源于 Cadillac Drive）</item>
+        <item>问卷填写数/总试乘试驾数*100%</item>
+    </string-array>
+
+
+</resources>

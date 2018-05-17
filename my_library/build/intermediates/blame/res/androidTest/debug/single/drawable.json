@@ -1,0 +1,394 @@
+[
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_close.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_close.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_message.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_message.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\selector_simple_press_mid.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_simple_press_mid.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_button_summit_order.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_button_summit_order.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_vector_test.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_back.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_back.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_bg.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_button_bg.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_button_bg.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_platform_selected.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_platform_selected.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_icon_background.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_add.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_add.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_loading.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_loading.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_data_unselected.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_data_unselected.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_more.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_more.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_arrow_down.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_arrow_down.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_quit_dialog.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_quit_dialog.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_top.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_top.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_posm.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_posm.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_cancel_btn_bg.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_cancel_btn_bg.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_dealer.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_dealer.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\selector_simple_press_top.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_simple_press_top.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_button_trade_confirm.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_button_trade_confirm.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_bottom_arc_grey.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_bottom_arc_grey.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\switch_slider.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\switch_slider.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_platform_unselected.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_platform_unselected.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_logo2.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_logo2.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_try.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_try.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_addtime_background.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_addtime_background.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_tip_circle.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_tip_circle.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_help.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_help.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_confirm_btn_bg.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_confirm_btn_bg.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_top_arc_grey.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_top_arc_grey.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_camera.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_camera.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_grey_frame.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_grey_frame.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_spinner.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_spinner.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\animation_pic_load.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\animation_pic_load.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_top_arc_white.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_top_arc_white.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\selector_simple_press_bottom.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_simple_press_bottom.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_data_selected.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_data_selected.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\switch_bg_grey.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\switch_bg_grey.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_setting.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_setting.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_edit.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_edit.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_setting_unselected.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_setting_unselected.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_grey.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_grey.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\switch_bg_red.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\switch_bg_red.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_bottom.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_bottom.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\selected_text_color.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\selected_text_color.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_grey_button.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_grey_button.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_white.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_white.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_tel.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_tel.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_green_button.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_green_button.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_search.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_search.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_bg_low.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_statement_unselected.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_statement_unselected.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_button_trade_deny.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_button_trade_deny.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_blue.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_blue.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_setting_selected.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_setting_selected.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\artboard.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\artboard.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_statement_selected.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_statement_selected.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_placeholder.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_placeholder.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\selector_simple_press1.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_simple_press1.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\switch_track.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\switch_track.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_bottom_arc_white.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_bottom_arc_white.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon_logo.png",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon_logo.png"
+    }
+]

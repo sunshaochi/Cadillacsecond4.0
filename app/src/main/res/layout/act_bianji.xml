@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <include layout="@layout/title_act_layout"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#F4F4F4">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_bname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#333333"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_bcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#999999"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_btime"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textColor="@color/blue"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/ll_mess"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <View
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#999999"
+        android:layout_width="match_parent"
+        android:layout_height="1sp"></View>
+    <TextView
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:drawablePadding="5dp"
+        android:drawableLeft="@mipmap/icon_warm"
+        android:layout_marginLeft="25dp"
+        android:textSize="12sp"
+        android:text="只是裸车,不计任何其他附加业务。同时,不要预估任何模糊返利"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <cadillac.example.com.cadillac.view.MyListview
+                android:id="@+id/lv_bianji"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:divider="@null"></cadillac.example.com.cadillac.view.MyListview>
+
+            <RelativeLayout
+                android:id="@+id/rl_totle"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:textColor="#333333"
+                    android:textSize="14sp"
+                    android:text="总计"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tv_totlenum"
+                    android:lines="2"
+                    android:digits="0123456789"
+                    android:gravity="center"
+                    android:textSize="14sp"
+                    android:layout_alignParentRight="true"
+                    android:text="120"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp" />
+            </RelativeLayout>
+            <View
+                android:background="#F4F4F4"
+                android:layout_width="match_parent"
+                android:layout_height="1sp"></View>
+
+            <TextView
+                android:id="@+id/tv_button"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/btn_tijiao"
+                android:gravity="center"
+                android:text="保存"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:background="#8a152b"
+        android:layout_weight="1.5"
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="12sp"
+            android:text="车型"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <View
+        android:background="#bcb7b8"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"></View>
+
+    <LinearLayout
+        android:background="#8a152b"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_weight="3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                android:id="@+id/tv_drsj"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:text="当日数据"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <View
+            android:background="#bcb7b8"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></View>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                android:gravity="center"
+                android:textSize="12sp"
+                android:text="新增\n进店"
+                android:textColor="@color/colorWhite"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <TextView
+                android:gravity="center"
+                android:textSize="12sp"
+                android:text="二次\n进店"
+                android:textColor="@color/colorWhite"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <TextView
+                android:gravity="center"
+                android:textSize="12sp"
+                android:text="订单"
+                android:textColor="@color/colorWhite"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <TextView
+                android:gravity="center"
+                android:textSize="12sp"
+                android:text="交车"
+                android:textColor="@color/colorWhite"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <View
+        android:background="#bcb7b8"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"></View>
+
+    <LinearLayout
+        android:background="#8a152b"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_weight="3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                android:id="@+id/tv_ylsj"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:text="月累数据"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <View
+            android:background="#bcb7b8"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></View>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                android:gravity="center"
+                android:textSize="12sp"
+                android:text="订单"
+                android:textColor="@color/colorWhite"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <TextView
+                android:gravity="center"
+                android:textSize="12sp"
+                android:text="订单率"
+                android:textColor="@color/colorWhite"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <TextView
+                android:gravity="center"
+                android:textSize="12sp"
+                android:text="留存"
+                android:textColor="@color/colorWhite"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <RelativeLayout
+            android:background="@mipmap/biaoge"
+            android:layout_width="50dp"
+            android:layout_height="match_parent">
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tv_dr"
+            android:background="@mipmap/biaoge"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#333333"
+            android:textSize="10sp"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tv_ylj"
+            android:background="@mipmap/biaoge"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#333333"
+            android:textSize="10sp"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <RelativeLayout
+            android:background="@mipmap/biaoge"
+            android:layout_width="50dp"
+            android:layout_height="match_parent">
+
+        </RelativeLayout>
+        <TextView
+            android:background="@mipmap/biaoge"
+            android:gravity="center"
+            android:text="新增\n进店"
+            android:textColor="#333333"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:background="@mipmap/biaoge"
+            android:gravity="center"
+            android:text="二次\n进店"
+            android:textColor="#333333"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:background="@mipmap/biaoge"
+            android:gravity="center"
+            android:text="订单"
+            android:textColor="#333333"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:background="@mipmap/biaoge"
+            android:gravity="center"
+            android:text="交车"
+            android:textColor="#333333"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:background="@mipmap/biaoge"
+            android:gravity="center"
+            android:text="订单"
+            android:textColor="#333333"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:background="@mipmap/biaoge"
+            android:gravity="center"
+            android:text="订单率"
+            android:textColor="#333333"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:background="@mipmap/biaoge"
+            android:gravity="center"
+            android:text="留存"
+            android:textColor="#333333"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

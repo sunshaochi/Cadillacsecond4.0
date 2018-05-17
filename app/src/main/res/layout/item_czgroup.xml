@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <View
+            android:layout_height="match_parent"
+            android:layout_width="1sp"
+            style="@style/view_line"></View>
+        <TextView
+            android:id="@+id/tv_cz"
+            android:background="@mipmap/biaoge"
+            style="@style/tv_datecome"
+            android:text="SRX"
+            />
+        <View
+            android:layout_height="match_parent"
+            android:layout_width="1sp"
+            style="@style/view_line"></View>
+
+        <TextView
+
+            style="@style/et_commen"
+            android:id="@+id/editText" />
+
+
+        <View
+            android:layout_height="match_parent"
+            android:layout_width="1sp"
+            style="@style/view_line"></View>
+
+        <TextView
+            android:id="@+id/tv_cj"
+            android:enabled="false"
+            style="@style/et_commen"
+            />
+
+        <View
+            android:layout_height="match_parent"
+            android:layout_width="1sp"
+            style="@style/view_line"></View>
+
+    </LinearLayout>
+    <View
+        style="@style/view_line"></View>
+
+</LinearLayout>

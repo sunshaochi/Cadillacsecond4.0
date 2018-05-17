@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.49"
+        android:orientation="vertical">
+
+        <include layout="@layout/form_car_detail_info"></include>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_requestCar_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_FromAgency"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:paddingTop="20dp"
+            android:text="客户："
+            android:textColor="@color/colorBlackText" />
+
+        <TextView
+            android:id="@+id/tv_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/icon_button_trade_confirm"
+            android:gravity="center"
+            android:text="交易确认"
+            android:textColor="@drawable/selected_text_color"
+            android:clickable="true"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_deny"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/icon_button_trade_deny"
+            android:gravity="center"
+            android:text="交易拒绝"
+            android:textColor="@drawable/selected_text_color"
+            android:clickable="true"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_notRequestCar_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"></LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_delete"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/icon_button_trade_deny"
+            android:gravity="center"
+            android:text="删除"
+            android:textColor="@drawable/selected_text_color"
+            android:clickable="true"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>

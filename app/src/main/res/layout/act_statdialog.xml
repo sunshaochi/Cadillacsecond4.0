@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9e9e9"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/view_topline"
+        android:background="#e9e9e9"
+        android:layout_width="match_parent"
+        android:layout_height="1sp"></View>
+    <!--以上是挂载popu的控件-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#e9e9e9">
+
+        <RelativeLayout
+            android:id="@+id/rl_finsh"
+            android:layout_width="45dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_lleft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/finsh" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cadillac全国"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/iv_title"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:src="@mipmap/down_jt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_share"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/share" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffffff"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_qb"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_qb"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:text="全部数据"
+                android:textColor="#8C1229"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/view_qb"
+                style="@style/view_line"
+                android:layout_width="60dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#8A152B"></View>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_zt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_zt"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:text="展厅数据"
+                android:textColor="#FF4B4B4B"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/view_zt"
+                style="@style/view_line"
+                android:layout_width="60dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#8A152B"
+                android:visibility="gone"></View>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_cz"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_cz"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:text="车展数据"
+                android:textColor="#FF4B4B4B"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/view_cz"
+                style="@style/view_line"
+                android:layout_width="60dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#8A152B"
+                android:visibility="gone"></View>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffffff">
+
+        <TextView
+            android:id="@+id/tv_daytime"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:text="2017-11-23"
+            android:textColor="#FF333333"
+            android:textSize="17sp" />
+
+        <RelativeLayout
+            android:id="@+id/rl_kpi"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/kpi" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tv_othertime"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/colorBlackText"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:id="@+id/fra_maindate"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone">
+
+    </FrameLayout>
+
+
+
+</LinearLayout>

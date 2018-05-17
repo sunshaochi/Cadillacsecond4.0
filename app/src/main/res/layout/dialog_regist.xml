@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_title"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:text="请选择职务"
+        android:background="#8a152b"
+        android:layout_width="match_parent"
+        android:layout_height="44dp" />
+
+    <ListView
+        android:background="@color/white"
+        android:id="@+id/lv_select"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"></ListView>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--<include layout="@layout/commen_title"></include>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ExpandableListView
+           android:groupIndicator="@null"
+            android:divider="@null"
+            android:id="@+id/main_expandablelistview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+    <!--<LinearLayout-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="20dp">-->
+
+        <!--<View-->
+            <!--android:background="@drawable/black_yuan"-->
+            <!--android:layout_width="12dp"-->
+            <!--android:layout_height="12dp"></View>-->
+
+        <!--<View-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:background="@drawable/gray_yuan"-->
+            <!--android:layout_width="12dp"-->
+            <!--android:layout_height="12dp"></View>-->
+
+    <!--</LinearLayout>-->
+
+</LinearLayout>

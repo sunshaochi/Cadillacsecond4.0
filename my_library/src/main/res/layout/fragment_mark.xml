@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/rg_mark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_zero_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="zeroScore"
+            android:text="分"
+            android:textColor="@color/colorBlackText"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rb_half_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="halfScore"
+            android:text="分"
+            android:textColor="@color/colorBlackText"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rb_full_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:tag="fullScore"
+            android:text="分"
+            android:textColor="@color/colorBlackText"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/colorGreyText" />
+
+    <LinearLayout
+        android:id="@+id/ll_advice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/iv_evidence1"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_grey_frame"
+                android:padding="1dp"
+                fresco:actualImageScaleType="fitXY"
+                fresco:placeholderImage="@drawable/icon_camera" />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/iv_evidence2"
+                android:layout_width="0dp"
+                android:layout_height="100dip"
+                android:layout_marginRight="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/bg_grey_frame"
+                android:padding="1dp"
+                fresco:actualImageScaleType="fitXY"
+                fresco:placeholderImage="@drawable/icon_camera" />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/iv_evidence3"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_grey_frame"
+                android:padding="1dp"
+                fresco:actualImageScaleType="fitXY"
+                fresco:placeholderImage="@drawable/icon_camera" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_advice"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_grey_frame"
+            android:gravity="start"
+            android:hint="请输入你的意见和理由"
+            android:padding="5dp"
+            android:textColor="@color/colorBlackText"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@mipmap/bg"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:background="@mipmap/onlyback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/title_act_layout"></include>
+        <View
+            android:id="@+id/view_back"
+            android:layout_alignParentRight="true"
+            android:layout_width="60dp"
+            android:layout_height="40dp"></View>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/riyuenian"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:id="@+id/tv_quanbu"
+            android:background="@drawable/left_yuan"
+            android:text="全部"
+            style="@style/check_tv" />
+
+        <View
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="#535353"></View>
+        <TextView
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:id="@+id/tv_tj"
+            android:text="已提交"
+            style="@style/check_tv" />
+
+        <View
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="#535353"></View>
+
+        <TextView
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:id="@+id/tv_wtj"
+            android:background="@drawable/right_yuan"
+            android:text="未提交"
+            style="@style/check_tv" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_info"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+
+
+</LinearLayout>

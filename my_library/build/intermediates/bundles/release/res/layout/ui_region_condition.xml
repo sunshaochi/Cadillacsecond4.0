@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:orientation="horizontal"
+    android:background="@color/colorWhite">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_select_zone"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:gravity="center"
+            android:text="大区"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlackText"/>
+        
+        <TextView
+            android:id="@+id/tv_select_province"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:gravity="center"
+            android:text="省市"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlackText"/>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_multiLevel1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_grey">
+
+        <ListView
+            android:id="@+id/lv_first_level"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:divider="@color/colorDarkGreyLine">
+
+        </ListView>
+
+        <ListView
+            android:id="@+id/lv_second_level"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:divider="@color/colorDarkGreyLine">
+
+        </ListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_multiLevel2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_grey"
+        android:visibility="gone">
+
+        <ListView
+            android:id="@+id/lv_province"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:divider="@color/colorDarkGreyLine"/>
+
+        <ListView
+            android:id="@+id/lv_city"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:divider="@color/colorDarkGreyLine"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

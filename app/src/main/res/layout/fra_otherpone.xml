@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+     <include layout="@layout/commen_title"></include>
+
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+          <android.support.v4.view.ViewPager
+              android:id="@+id/viewpager"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_alignParentTop="true"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentStart="true" />
+
+
+          <LinearLayout
+              android:visibility="gone"
+              android:layout_marginBottom="15dp"
+              android:layout_alignParentBottom="true"
+              android:layout_width="match_parent"
+              android:layout_height="15dp"
+              android:gravity="center"
+              android:orientation="horizontal">
+
+               <View
+                   android:id="@+id/view_1"
+                   android:layout_width="8dp"
+                   android:layout_height="8dp"
+                   android:background="@drawable/gray_yuan"></View>
+
+               <View
+                   android:id="@+id/view_2"
+                   android:layout_width="8dp"
+                   android:layout_height="8dp"
+                   android:layout_marginLeft="5dp"
+                   android:background="@drawable/gray_yuan"></View>
+
+               <View
+                   android:id="@+id/view_3"
+                   android:layout_width="8dp"
+                   android:layout_height="8dp"
+                   android:layout_marginLeft="5dp"
+                   android:background="@drawable/gray_yuan"></View>
+
+
+          </LinearLayout>
+     </RelativeLayout>
+     <ListView
+         android:visibility="gone"
+         android:id="@+id/lv_otherone"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"></ListView>
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="78dp"
+    android:background="@color/colorWhite">
+
+    <TextView
+        android:id="@+id/tv_dealer"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:textColor="@color/colorBlackText"
+        android:text="昆山安吉名轩汽车销售服务有限公司"
+        />
+
+    <Switch
+        android:id="@+id/switch_permission"
+        android:layout_width="82dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:switchMinWidth="82dp"
+        android:textOn="    "
+        android:textOff="    "
+        android:thumb="@drawable/switch_slider"
+        android:track="@drawable/switch_track"
+        />
+
+</RelativeLayout>

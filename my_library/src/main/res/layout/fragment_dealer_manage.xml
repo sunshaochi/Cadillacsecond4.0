@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+
+    <include layout="@layout/ui_title_bar_management" />
+
+    <com.ist.cadillacpaltform.UI.view.ExpandTabView
+        android:id="@+id/v_condition_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.ist.cadillacpaltform.UI.view.ExpandTabView>
+
+    <com.ist.cadillacpaltform.UI.view.SwipeListView
+        android:id="@+id/lv_dealer_car_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/colorLightGreyLine"
+        android:dividerHeight="1dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_fill_blank"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" />
+
+</LinearLayout>

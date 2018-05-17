@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:id="@+id/tv_chexin"
+            android:background="@mipmap/biaoge"
+            style="@style/tv_datecome"
+            android:text=""
+            />
+        <View
+            android:layout_height="match_parent"
+            android:layout_width="1sp"
+            style="@style/view_line"></View>
+
+        <TextView
+            android:id="@+id/tv_laidian"
+            style="@style/et_commen"
+            />
+
+        <View
+            android:layout_height="match_parent"
+            android:layout_width="1sp"
+            style="@style/view_line"></View>
+
+        <TextView
+            android:id="@+id/tv_jindian"
+            style="@style/et_commen"
+            />
+
+        <View
+            android:layout_height="match_parent"
+            android:layout_width="1sp"
+            style="@style/view_line"></View>
+
+        <TextView
+            android:id="@+id/tv_dindan"
+            style="@style/et_commen"
+            />
+
+        <View
+            android:layout_height="match_parent"
+            android:layout_width="1sp"
+            style="@style/view_line"></View>
+
+        <TextView
+            android:id="@+id/tv_tuidin"
+            style="@style/et_commen"
+            />
+
+        <View
+            android:layout_height="match_parent"
+            android:layout_width="1sp"
+            style="@style/view_line"></View>
+
+        <TextView
+            android:id="@+id/tv_jiaoche"
+            style="@style/et_commen"
+            />
+
+        <View
+            android:layout_height="match_parent"
+            android:layout_width="1sp"
+            style="@style/view_line"></View>
+
+        <TextView
+            android:id="@+id/tv_ylj"
+            style="@style/et_commen"
+            />
+        <View
+            android:layout_height="match_parent"
+            android:layout_width="1sp"
+            style="@style/view_line"></View>
+
+        <TextView
+            android:id="@+id/tv_lc"
+            style="@style/et_commen"
+            />
+
+    </LinearLayout>
+    <View
+        style="@style/view_line"></View>
+
+</LinearLayout>

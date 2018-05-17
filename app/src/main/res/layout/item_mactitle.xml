@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/ll_item5"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#A20D27"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_51"
+            style="@style/tv_nakedcar"
+            android:text="日期" />
+
+        <TextView
+            android:id="@+id/tv_52"
+            style="@style/tv_nakedcar"
+            android:text="ATS-L" />
+
+
+        <TextView
+            android:id="@+id/tv_53"
+            style="@style/tv_nakedcar"
+            android:text="CT 6" />
+
+
+        <TextView
+            android:id="@+id/tv_54"
+            style="@style/tv_nakedcar"
+            android:text="XT 5" />
+
+
+        <TextView
+            android:id="@+id/tv_55"
+            style="@style/tv_nakedcar"
+            android:text="XTS" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_item6"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#A20D27"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_61"
+            style="@style/tv_nakedcar"
+            android:text="日期" />
+
+        <TextView
+            android:id="@+id/tv_62"
+            style="@style/tv_nakedcar"
+            android:text="ATS_L" />
+
+
+        <TextView
+            android:id="@+id/tv_63"
+            style="@style/tv_nakedcar"
+            android:text="CT 6" />
+
+
+        <TextView
+            android:id="@+id/tv_64"
+            style="@style/tv_nakedcar"
+            android:text="XT 5" />
+
+
+        <TextView
+            android:id="@+id/tv_65"
+            style="@style/tv_nakedcar"
+            android:text="XTS" />
+
+        <TextView
+            android:id="@+id/tv_66"
+            style="@style/tv_nakedcar"
+            android:text="XTS" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_item7"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#A20D27"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_71"
+            style="@style/tv_nakedcar"
+            android:text="日期" />
+
+        <TextView
+            android:id="@+id/tv_72"
+            style="@style/tv_nakedcar"
+            android:text="ATS_L" />
+
+
+        <TextView
+            android:id="@+id/tv_73"
+            style="@style/tv_nakedcar"
+            android:text="CT 6" />
+
+
+        <TextView
+            android:id="@+id/tv_74"
+            style="@style/tv_nakedcar"
+            android:text="XT 5" />
+
+
+        <TextView
+            android:id="@+id/tv_75"
+            style="@style/tv_nakedcar"
+            android:text="XTS" />
+
+        <TextView
+            android:id="@+id/tv_76"
+            style="@style/tv_nakedcar"
+            android:text="XTS" />
+
+        <TextView
+            android:id="@+id/tv_77"
+            style="@style/tv_nakedcar"
+            android:text="XTS" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_item8"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#A20D27"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_81"
+            style="@style/tv_nakedcar"
+            android:text="日期" />
+
+        <TextView
+            android:id="@+id/tv_82"
+            style="@style/tv_nakedcar"
+            android:text="ATS_L" />
+
+
+        <TextView
+            android:id="@+id/tv_83"
+            style="@style/tv_nakedcar"
+            android:text="CT 6" />
+
+
+        <TextView
+            android:id="@+id/tv_84"
+            style="@style/tv_nakedcar"
+            android:text="XT 5" />
+
+
+        <TextView
+            android:id="@+id/tv_85"
+            style="@style/tv_nakedcar"
+            android:text="XTS" />
+
+        <TextView
+            android:id="@+id/tv_86"
+            style="@style/tv_nakedcar"
+            android:text="XTS" />
+
+        <TextView
+            android:id="@+id/tv_87"
+            style="@style/tv_nakedcar"
+            android:text="XTS" />
+
+        <TextView
+            android:id="@+id/tv_88"
+            style="@style/tv_nakedcar"
+            android:text="XTS" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_item9"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#A20D27"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_91"
+            style="@style/tv_nakedcar"
+            android:text="日期" />
+
+        <TextView
+            android:id="@+id/tv_92"
+            style="@style/tv_nakedcar"
+            android:text="ATS-L" />
+
+
+        <TextView
+            android:id="@+id/tv_93"
+            style="@style/tv_nakedcar"
+            android:text="CT 6" />
+
+
+        <TextView
+            android:id="@+id/tv_94"
+            style="@style/tv_nakedcar"
+            android:text="XT 5" />
+
+
+        <TextView
+            android:id="@+id/tv_95"
+            style="@style/tv_nakedcar"
+            android:text="XTS" />
+
+        <TextView
+            android:id="@+id/tv_96"
+            style="@style/tv_nakedcar"
+            android:text="XTS" />
+
+        <TextView
+            android:id="@+id/tv_97"
+            style="@style/tv_nakedcar"
+            android:text="XTS" />
+
+        <TextView
+            android:id="@+id/tv_98"
+            style="@style/tv_nakedcar"
+            android:text="XTS" />
+
+        <TextView
+            android:id="@+id/tv_99"
+            style="@style/tv_nakedcar"
+            android:text="XTS" />
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_item10"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#A20D27"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_101"
+            style="@style/tv_nakedcar"
+            android:text="日期" />
+
+        <TextView
+            android:id="@+id/tv_102"
+            style="@style/tv_nakedcar"
+            android:text="ATS-L" />
+
+
+        <TextView
+            android:id="@+id/tv_103"
+            style="@style/tv_nakedcar"
+            android:text="CT 6" />
+
+
+        <TextView
+            android:id="@+id/tv_104"
+            style="@style/tv_nakedcar"
+            android:text="XT 5" />
+
+
+        <TextView
+            android:id="@+id/tv_105"
+            style="@style/tv_nakedcar"
+            android:text="XTS" />
+
+        <TextView
+            android:id="@+id/tv_106"
+            style="@style/tv_nakedcar"
+            android:text="XTS" />
+
+        <TextView
+            android:id="@+id/tv_107"
+            style="@style/tv_nakedcar"
+            android:text="XTS" />
+
+        <TextView
+            android:id="@+id/tv_108"
+            style="@style/tv_nakedcar"
+            android:text="XTS" />
+
+        <TextView
+            android:id="@+id/tv_109"
+            style="@style/tv_nakedcar"
+            android:text="XTS" />
+
+        <TextView
+            android:id="@+id/tv_110"
+            style="@style/tv_nakedcar"
+            android:text="XTS" />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

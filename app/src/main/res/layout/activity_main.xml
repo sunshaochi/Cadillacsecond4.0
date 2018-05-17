@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="#e9e9e9"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fra_main"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </FrameLayout>
+    <View
+        style="@style/view_line"></View>
+
+    <RadioGroup
+        android:id="@+id/rg_tab"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <RadioButton
+            android:textColor="@drawable/btn_text_color"
+            android:id="@+id/rb_data"
+            style="@style/Radiobutton"
+            android:drawableTop="@drawable/selected_data"
+            android:text="数据"
+
+            />
+
+        <RadioButton
+            android:textColor="@drawable/btn_text_color"
+            android:text="报表"
+            android:id="@+id/rb_stat"
+            android:drawableTop="@drawable/selected_statent"
+            style="@style/Radiobutton"
+            />
+
+        <RadioButton
+            android:textColor="@drawable/btn_text_color"
+            android:paddingTop="15dp"
+            android:text="销售"
+            android:drawableTop="@drawable/selected_platfrom"
+            style="@style/Radiobutton"
+            android:id="@+id/rb_dealer" />
+
+        <RadioButton
+            android:textColor="@drawable/btn_text_color"
+            android:paddingTop="15dp"
+            android:text="更多"
+            android:id="@+id/rb_more"
+            android:drawableTop="@drawable/selected_setting"
+            style="@style/Radiobutton"
+            />
+
+
+
+
+
+    </RadioGroup>
+
+    </LinearLayout>
+
+</LinearLayout>

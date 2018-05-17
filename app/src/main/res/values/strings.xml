@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Cadillac</string>
+
+    <string name="listview_header_hint_normal">下拉刷新</string>
+    <string name="listview_header_hint_release">松开后刷新</string>
+    <string name="listview_loading">加载中...</string>
+    <string name="nomore_loading">无更多数据</string>
+    <string name="refreshing">refreshing...</string>
+    <string name="refresh_done">加载完成</string>
+    <string name="listview_header_last_time">last update：</string>
+
+    <string name="pickerview_cancel">取消</string>
+    <string name="pickerview_submit">确定</string>
+    <string name="pickerview_year">年</string>
+    <string name="pickerview_month">月</string>
+    <string name="pickerview_day">日</string>
+    <string name="pickerview_hours">时</string>
+    <string name="pickerview_minutes">分</string>
+    <string name="pickerview_seconds">秒</string>
+
+</resources>

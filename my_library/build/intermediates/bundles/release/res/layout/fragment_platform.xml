@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/ui_platform_title_bar" />
+
+    <View
+        android:id="@+id/v_top_line"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/colorDarkGreyLine" />
+
+    <com.ist.cadillacpaltform.UI.view.ExpandTabView
+        android:id="@+id/view_search_condition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:id="@+id/v_line2"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/colorDarkGreyLine" />
+
+    <com.ist.cadillacpaltform.UI.view.PullToRefreshListView
+        android:id="@+id/lv_platform_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:divider="@color/colorLightGreyLine"
+        android:dividerHeight="1dp"
+        >
+
+    </com.ist.cadillacpaltform.UI.view.PullToRefreshListView>
+
+    <LinearLayout
+        android:id="@+id/ll_fill_blank"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+</LinearLayout>

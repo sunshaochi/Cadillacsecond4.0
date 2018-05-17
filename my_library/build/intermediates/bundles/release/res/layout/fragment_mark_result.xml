@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/rg_mark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_zero_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="zeroScore"
+            android:text="分"
+            android:textColor="@color/colorBlackText"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rb_half_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="halfScore"
+            android:text="分"
+            android:textColor="@color/colorBlackText"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rb_full_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:tag="fullScore"
+            android:text="分"
+            android:textColor="@color/colorBlackText"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/ll_evidencePic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/sdv_evidence1"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/posm_pic_height"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:padding="1dp"
+            fresco:actualImageScaleType="fitXY"
+            fresco:placeholderImage="@drawable/icon_placeholder" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/sdv_evidence2"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/posm_pic_height"
+            android:layout_marginRight="5dip"
+            android:layout_weight="1"
+            android:padding="1dp"
+            fresco:actualImageScaleType="fitXY"
+            fresco:placeholderImage="@drawable/icon_placeholder" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/sdv_evidence3"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/posm_pic_height"
+            android:layout_weight="1"
+            android:padding="1dp"
+            fresco:actualImageScaleType="fitXY"
+            fresco:placeholderImage="@drawable/icon_placeholder" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_suggestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="等待载入"
+        android:textColor="@color/colorBlackText"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

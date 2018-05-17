@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sv_grade_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_high"
+            android:background="@color/colorTitle">
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="15dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:src="@drawable/icon_back" />
+
+            <TextView
+                android:id="@+id/tv_dealer_name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="上海百联沪通"
+                android:textColor="@color/colorBlackText"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorLightGreyLine" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:id="@+id/rl_quarter_tag1"
+                android:layout_width="84dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/bg_grey">
+
+                <TextView
+                    android:id="@+id/tv_quarter_tag1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_horizontal"
+                    android:text="2016.Q2"
+                    android:textColor="@color/colorBlackText"
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/tv_quarter_tag1"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_q1_score"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="80"
+                        android:textColor="@color/colorBlackText"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tv_q1_total_score"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="3dp"
+                        android:text="/100"
+                        android:textColor="@color/colorGreyText"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_quarter_tag2"
+                android:layout_width="84dp"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="13dp"
+                android:background="@drawable/bg_grey">
+
+                <TextView
+                    android:id="@+id/tv_quarter_tag2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_horizontal"
+                    android:text="2016.Q3"
+                    android:textColor="@color/colorBlackText"
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/tv_quarter_tag2"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_q2_score"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="72"
+                        android:textColor="@color/colorBlackText"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tv_q2_total_score"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="3dp"
+                        android:text="/100"
+                        android:textColor="@color/colorGreyText"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_quarter_tag3"
+                android:layout_width="84dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/bg_grey">
+
+                <TextView
+                    android:id="@+id/tv_quarter_tag3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_horizontal"
+                    android:text="2016.Q4"
+                    android:textColor="@color/colorBlackText"
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/tv_quarter_tag3"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_q3_score"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="56"
+                        android:textColor="@color/colorBlackText"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tv_q3_total_score"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="3dp"
+                        android:text="/100"
+                        android:textColor="@color/colorGreyText"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <com.ist.cadillacpaltform.UI.view.PieChartView
+                    android:id="@+id/v_pie_chart"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_current_quarter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:text="2017.Q1"
+                    android:textColor="@color/colorGreyText"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="1dp"
+                    android:background="@color/colorLightGreyLine" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_current_score"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N"
+                            android:textColor="@color/colorRedText"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:id="@+id/tv_total_score"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="1dp"
+                            android:text="/A"
+                            android:textColor="@color/colorGreyText"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_abstract_module"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/colorLightGreyLine" />
+
+                <TextView
+                    android:id="@+id/tv_grade_button"
+                    android:layout_width="64dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/bg_green_button"
+                    android:gravity="center"
+                    android:text="整改"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.ist.cadillacpaltform.UI.view.CustomListView
+            android:id="@+id/lv_grade_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null" />
+
+        <LinearLayout
+            android:id="@+id/ll_rectify_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:gravity="center_vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center_vertical"
+                    android:text="待整改内容"
+                    android:textColor="@color/colorBlackText"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorLightGreyLine" />
+
+            <com.ist.cadillacpaltform.UI.view.CustomListView
+                android:id="@+id/lv_rectify_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_no_rectify_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="暂无您的打分信息"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlackText"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+</ScrollView>

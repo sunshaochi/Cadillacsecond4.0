@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_high"
+    android:orientation="horizontal"
+    android:background="@color/colorTitle"
+    android:id="@+id/ll_posm_title"
+    >
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="12dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/icon_back"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="14dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="21sp"
+        android:textColor="@color/colorBlackText"
+        android:textStyle="bold"
+        android:text="POSM平台"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao'
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.1"
+
+    aaptOptions {
+        cruncherEnabled = false
+        useNewCruncher = false
+    }
+
+    defaultConfig {
+        applicationId "cadillac.example.com.cadillac"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 6
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    greendao {
+        schemaVersion 2
+        daoPackage 'example.greendao.gen'
+        targetGenDir 'src/main/java'
+    }
+
+
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.1.0'
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:recyclerview-v7:25.1.0'
+    //下拉刷新
+    compile 'com.zhy:okhttputils:2.6.2'
+    //请求
+//    compile files('libs/gson-2.2.4.jar')
+//    //解析因为和高库林冲突了所以把我的删掉
+    compile 'com.darwinsys:hirondelle-date4j:1.5.1'
+    //日历数据
+    compile 'com.android.support:support-v4:25.1.0'
+    compile project(':my_library')
+    compile files('libs/Xg_sdk_v2.47_20161026_0936.jar')
+
+    compile 'org.greenrobot:greendao:3.2.0'
+    compile 'org.greenrobot:greendao-generator:3.2.0'
+    compile 'org.greenrobot:eventbus:3.0.0'
+
+
+
+}
+

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/shaixuantitle">
+
+        <include layout="@layout/title_act_layout"></include>
+
+        <View
+            android:id="@+id/view_back"
+            android:layout_width="80dp"
+            android:layout_height="44dp"
+            android:layout_alignParentRight="true"></View>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:background="@mipmap/bg"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_top"
+            android:textColor="@color/colorBlackText"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="15dp"
+            android:text="" />
+
+        <RelativeLayout
+            android:id="@+id/rl_zt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/commen_title"></include>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_cz"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/commen_cztitle"></include>
+        </RelativeLayout>
+
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_stat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:layout_marginBottom="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/view_1"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:background="@drawable/gray_yuan"></View>
+
+            <View
+                android:id="@+id/view_2"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/gray_yuan"></View>
+
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:background="@drawable/riyuenian"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="10dp">-->
+            <!--<TextView-->
+                <!--android:id="@+id/tv_quanbu"-->
+                <!--android:background="@drawable/left_yuan"-->
+                <!--android:text="全部"-->
+                <!--style="@style/check_tv" />-->
+
+            <!--<View-->
+                <!--android:layout_width="1sp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:background="#777777"></View>-->
+            <!--<TextView-->
+                <!--android:id="@+id/tv_zt"-->
+                <!--android:text="展厅"-->
+                <!--style="@style/check_tv" />-->
+
+            <!--<View-->
+                <!--android:layout_width="1sp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:background="#777777"></View>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_cz"-->
+                <!--android:background="@drawable/right_yuan"-->
+                <!--android:text="车展"-->
+                <!--style="@style/check_tv" />-->
+        <!--</LinearLayout>-->
+
+    </LinearLayout>
+
+
+</LinearLayout>

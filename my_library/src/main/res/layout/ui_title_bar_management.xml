@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_high"
+    android:gravity="center_vertical"
+    android:background="@color/colorTitle">
+
+    <ImageView
+        android:layout_centerVertical="true"
+        android:id="@+id/iv_back"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="12dp"
+        android:src="@drawable/icon_back"
+        />
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:id="@+id/tv_management_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlackText"
+        android:textStyle="bold"
+        android:text="经销商管理"/>
+
+    <ImageView
+        android:layout_centerVertical="true"
+        android:id="@+id/iv_add"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/icon_add"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/iv_setting"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/icon_setting"
+        android:visibility="gone"/>
+
+</RelativeLayout>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#e9e9e9"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="#e9e9e9"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+        <RelativeLayout
+            android:id="@+id/rl_xq"
+            android:layout_width="45dp"
+            android:layout_height="match_parent">
+        <ImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/iv_lleft"
+            android:src="@mipmap/image_xq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_centerInParent="true"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:text="Cadillac全国"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:id="@+id/rl_sx"
+            android:layout_alignParentRight="true"
+            android:layout_width="45dp"
+            android:layout_height="match_parent">
+        <ImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/iv_rright"
+            android:src="@mipmap/image_sx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        </RelativeLayout>
+
+    <LinearLayout
+        android:background="#ffffffff"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:id="@+id/ll_qb"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_qb"
+                android:gravity="center"
+                android:textColor="#8C1229"
+                android:textSize="14sp"
+                android:text="全部数据"
+                android:layout_width="match_parent"
+                android:layout_height="48dp" />
+
+           <View
+               android:id="@+id/view_qb"
+               android:background="#8A152B"
+               android:layout_gravity="center_horizontal"
+               android:layout_width="60dp"
+               android:layout_height="2dp"
+               style="@style/view_line" ></View>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_zt"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_zt"
+                android:textColor="#FF4B4B4B"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:text="展厅数据"
+                android:layout_width="match_parent"
+                android:layout_height="48dp" />
+
+            <View
+                android:id="@+id/view_zt"
+                android:visibility="gone"
+                android:background="#8A152B"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="60dp"
+                android:layout_height="2dp"
+                style="@style/view_line" ></View>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_cz"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_cz"
+                android:gravity="center"
+                android:textColor="#FF4B4B4B"
+                android:textSize="14sp"
+                android:text="车展数据"
+                android:layout_width="match_parent"
+                android:layout_height="48dp" />
+
+            <View
+                android:id="@+id/view_cz"
+                android:visibility="gone"
+                android:background="#8A152B"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="60dp"
+                android:layout_height="2dp"
+                style="@style/view_line" ></View>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:background="#ffffffff"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+        <TextView
+            android:id="@+id/tv_daytime"
+            android:textColor="#FF333333"
+            android:layout_centerInParent="true"
+            android:textSize="17sp"
+            android:gravity="center_vertical"
+            android:text="2017-11-23"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <RelativeLayout
+            android:id="@+id/rl_kpi"
+            android:layout_alignParentRight="true"
+            android:layout_width="45dp"
+            android:layout_height="match_parent">
+        <ImageView
+            android:layout_centerInParent="true"
+            android:src="@mipmap/kpi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_othertime"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="@color/colorBlackText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_main"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+
+
+</LinearLayout>

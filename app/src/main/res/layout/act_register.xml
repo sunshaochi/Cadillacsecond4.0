@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/caldroid_white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:paddingBottom="10dp"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/title_act_layout"></include>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@mipmap/regist_login" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_qy"
+                style="@style/ll_regist"
+                android:layout_marginTop="25dp">
+
+                <TextView
+                    style="@style/tv_regone"
+                    android:text="所属区域" />
+
+                <TextView
+                    android:id="@+id/tv_qy"
+                    style="@style/tv_regtwo"
+                    android:text="选择所属区域"
+                     />
+
+                <ImageView
+                    style="@style/iv_reg"
+                    />
+            </LinearLayout>
+
+            <View
+                style="@style/view_line"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"></View>
+
+            <LinearLayout
+                android:id="@+id/ll_mc"
+                style="@style/ll_regist">
+
+                <TextView
+                    style="@style/tv_regone"
+                    android:text="经销商名称"
+                     />
+
+                <TextView
+                    android:id="@+id/tv_mc"
+                    style="@style/tv_regtwo"
+                    android:text="选择经销商名称"
+                     />
+
+                <ImageView
+                    style="@style/iv_reg"/>
+            </LinearLayout>
+
+            <View
+                style="@style/view_line"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"></View>
+
+            <LinearLayout
+                android:id="@+id/ll_zw"
+                style="@style/ll_regist">
+
+                <TextView
+                    style="@style/tv_regone"
+                    android:text="职务"
+                     />
+
+                <TextView
+                    android:id="@+id/tv_zw"
+                    style="@style/tv_regtwo"
+                    android:text="选择职务"
+                    />
+
+                <ImageView
+                    style="@style/iv_reg" />
+            </LinearLayout>
+
+            <View
+                style="@style/view_line"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"></View>
+
+            <LinearLayout
+                style="@style/ll_regist">
+                <TextView
+                    android:text="用户账号"
+                    style="@style/tv_regone"/>
+
+                <EditText
+                    android:enabled="false"
+                    android:digits="0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_"
+                    android:textColorHint="#999999"
+                    android:layout_weight="2"
+                    android:id="@+id/et_account"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:hint=""
+                    android:textColor="#333333"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:visibility="invisible"
+                    style="@style/iv_reg" />
+
+            </LinearLayout>
+
+            <View
+                style="@style/view_line"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"></View>
+
+            <LinearLayout
+                style="@style/ll_regist">
+                <TextView
+                    android:gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="姓  名"
+                    android:textColor="#333333"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:textColorHint="#999999"
+                    android:layout_weight="2"
+                    android:id="@+id/et_name"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:hint="我们"
+                    android:textColor="#333333"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:visibility="invisible"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/right_jt" />
+
+            </LinearLayout>
+
+            <View
+                style="@style/view_line"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"></View>
+
+            <LinearLayout
+                style="@style/ll_regist">
+                <TextView
+                    style="@style/tv_regone"
+                    android:text="手  机"
+                     />
+
+                <EditText
+                    android:textColorHint="#999999"
+                    android:maxLength="11"
+                    android:inputType="number"
+                    android:layout_weight="2"
+                    android:id="@+id/et_phone"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:hint="我们"
+                    android:textColor="#333333"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:visibility="invisible"
+                    style="@style/iv_reg"/>
+
+            </LinearLayout>
+
+            <View
+                style="@style/view_line"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"></View>
+
+            <!---->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/ck_regist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/ck_box"
+                    android:drawablePadding="10dp"
+                    android:text="我已阅读并同意"
+                    android:textColor="#8392a0"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_xieyi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:text="《App使用协议》"
+                    android:textColor="#8a152b"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_regist"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/bg_blue"
+                android:gravity="center"
+                android:text="提交"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_act_layout"></include>
+
+    <LinearLayout
+        android:background="@color/caldroid_white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout style="@style/ll_myinfo">
+
+            <TextView
+                style="@style/tv_register"
+                android:text="用户名:" />
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="123"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+            android:background="#eeeeee"></View>
+
+        <LinearLayout style="@style/ll_myinfo">
+
+            <TextView
+                style="@style/tv_register"
+                android:text="姓名:" />
+
+            <EditText
+                android:textColor="#333333"
+                android:hint="请输入姓名"
+                android:textColorHint="#999999"
+                android:paddingLeft="5dp"
+                android:id="@+id/et_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:paddingRight="15dp"
+                android:text=""
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/right_black" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+            android:background="#eeeeee"></View>
+
+        <LinearLayout style="@style/ll_myinfo">
+
+            <TextView
+                style="@style/tv_register"
+                android:text="职位:" />
+
+            <TextView
+                android:id="@+id/tv_zhiwu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="45dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+            android:background="#eeeeee"></View>
+
+        <LinearLayout style="@style/ll_myinfo">
+
+            <TextView
+                style="@style/tv_register"
+                android:text="手机" />
+
+            <EditText
+                android:textColorHint="#999999"
+                android:paddingLeft="5dp"
+                android:id="@+id/et_phone"
+                style="@style/et_register"
+                android:hint="请输入手机号"
+                android:inputType="number"
+                android:maxLength="11" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/right_black" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+            android:background="#eeeeee"></View>
+
+    </LinearLayout>
+</LinearLayout>

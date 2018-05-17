@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/title_act_layout"></include>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/regist_login" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:paddingRight="12dp"
+        android:layout_marginTop="45dp"
+        style="@style/ll_myinfo">
+
+        <TextView
+            android:text="密    码:"
+            style="@style/tv_register"/>
+
+        <EditText
+            android:digits="0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_"
+            android:background="@null"
+            android:textColorHint="#999999"
+            android:inputType="textPassword"
+            android:hint="请输入旧密码"
+            android:id="@+id/et_pass"
+            style="@style/et_register"/>
+
+        <ImageView
+            android:id="@+id/iv_pclear"
+            android:visibility="invisible"
+            android:src="@mipmap/clear_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/iv_plook"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/pwd_hid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="15dp"
+        android:background="#eeeeee"></View>
+
+    <LinearLayout
+        android:paddingRight="12dp"
+        android:layout_marginTop="20dp"
+        style="@style/ll_myinfo">
+
+        <TextView
+            android:text="新密码:"
+            style="@style/tv_register"/>
+
+        <EditText
+            android:inputType="textPassword"
+            android:background="@null"
+            android:digits="0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_"
+            android:textColorHint="#999999"
+            android:hint="请输入新密码"
+            android:id="@+id/et_newpass"
+            style="@style/et_register" />
+
+        <ImageView
+            android:id="@+id/iv_npclear"
+            android:visibility="invisible"
+            android:src="@mipmap/clear_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/iv_nplook"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/pwd_hid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="15dp"
+        android:background="#eeeeee"></View>
+
+
+    <TextView
+        android:id="@+id/tv_bc"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:background="@drawable/bg_blue"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:text="保存"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_bottom_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorTitle"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/tv_prev_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/selector_simple_press1"
+        android:padding="15dp"
+        android:text="&lt;&lt;上一题"
+        android:textColor="@color/colorGreyText"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_next_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/selector_simple_press1"
+        android:padding="15dp"
+        android:text="下一题&gt;&gt;"
+        android:textColor="@color/colorRedText"
+        android:textSize="20sp" />
+
+</RelativeLayout>

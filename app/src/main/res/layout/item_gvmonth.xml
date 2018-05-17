@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:background="#979797"
+            android:id="@+id/tv_month"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:text="Jay"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:background="@drawable/cray_kuang"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:id="@+id/tv_room"
+            android:layout_width="match_parent"
+            android:layout_height="21dp"
+            android:text="39322"
+            android:textColor="#666666"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_marginTop="3dp"
+            android:paddingRight="10dp"
+            android:id="@+id/tv_order"
+            android:layout_width="match_parent"
+            android:layout_height="21dp"
+            android:gravity="right"
+            android:text="39366"
+            android:textColor="#4674a1"
+            android:textSize="15sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

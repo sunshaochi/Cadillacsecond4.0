@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="reported">
+        <item>是</item>
+        <item>否</item>
+    </string-array>
+    <string-array name="type">
+        <item>良好</item>
+        <item>一般</item>
+        <item>差</item>
+    </string-array>
+</resources>

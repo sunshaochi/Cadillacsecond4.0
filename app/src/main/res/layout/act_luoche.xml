@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <include layout="@layout/title_act_layout"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#ffffff">
+
+        <RelativeLayout
+            android:id="@+id/rl_arrowleft"
+            android:layout_width="40dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2017-11-23"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_alignParentRight="true"
+            android:id="@+id/rl_arrowright"
+            android:layout_width="40dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:src="@mipmap/right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+    <View
+        android:background="#979797"
+        android:layout_width="match_parent"
+        android:layout_height="1sp"></View>
+
+    <TextView
+        android:drawablePadding="5dp"
+        android:drawableLeft="@mipmap/icon_warm"
+        android:textColor="@color/colorRed"
+        android:layout_gravity="center_horizontal"
+        android:textSize="9sp"
+        android:text="上一行为裸车毛利，下一行为综合毛利"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:id="@+id/rg_main"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <RadioButton
+            android:gravity="center"
+            android:id="@+id/rb_jd"
+            android:textSize="12sp"
+            android:textColor="@drawable/tv_luocheselect"
+            android:background="@drawable/luocherbbg"
+            android:text="绝对值"
+            android:button="@null"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="30dp" />
+
+        <RadioButton
+            android:gravity="center"
+            android:id="@+id/rb_hb"
+            android:textSize="12sp"
+            android:textColor="@drawable/tv_luocheselect"
+            android:background="@drawable/luocherbbg"
+            android:layout_marginLeft="10dp"
+            android:text="环比变化值"
+            android:button="@null"
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_height="30dp" />
+
+
+        <RadioButton
+            android:gravity="center"
+            android:id="@+id/rb_tb"
+            android:textSize="12sp"
+            android:textColor="@drawable/tv_luocheselect"
+            android:background="@drawable/luocherbbg"
+            android:layout_marginLeft="10dp"
+            android:text="同比变化值"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="30dp" />
+
+        <RadioButton
+            android:gravity="center"
+            android:id="@+id/rb_qs"
+            android:textSize="14sp"
+            android:textColor="@drawable/tv_luocheselect"
+            android:background="@drawable/luocherbbg"
+            android:layout_marginLeft="10dp"
+            android:text="趋势图"
+            android:button="@null"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="30dp" />
+    </RadioGroup>
+    <FrameLayout
+        android:id="@+id/fl_lcml"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+    </LinearLayout>
+

@@ -1,0 +1,378 @@
+[
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_home_page.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_home_page.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\form_car_detail_info.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\form_car_detail_info.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_screen_simple.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\item_listview_select_condition.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\item_listview_select_condition.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fragment_prev_and_next.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_prev_and_next.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ui_posm_condition_bar.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\ui_posm_condition_bar.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ui_posm_quarter.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\ui_posm_quarter.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fragment_question.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_question.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\item_listview_posm.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\item_listview_posm.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ui_posm_region.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\ui_posm_region.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\spinner_item.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\spinner_item.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ui_title_bar_management.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\ui_title_bar_management.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\item_listview_search_result.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\item_listview_search_result.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fragment_car_edit.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_car_edit.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\item_listview_rectify_detail.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\item_listview_rectify_detail.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\item_listview_grade_detail.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\item_listview_grade_detail.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_detail_page.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_detail_page.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_car_management_detail.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_car_management_detail.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ui_posm_type.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\ui_posm_type.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\view_quit_dialog.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\view_quit_dialog.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fragment_mark_result.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_mark_result.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_custom_big.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\item_popupwindow_show_full_photo.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\item_popupwindow_show_full_photo.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ui_platform_title_bar.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\ui_platform_title_bar.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ui_simple_platform_title_bar.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\ui_simple_platform_title_bar.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_posm_home.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_posm_home.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\guba_pull_to_refresh_footer2_blank.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\guba_pull_to_refresh_footer2_blank.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_media.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_rectification.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_rectification.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_part_time.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\guba_item_refresh_head.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\guba_item_refresh_head.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fragment_dealer_manage.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_dealer_manage.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\item_dealer_permission.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\item_dealer_permission.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\form_car_edit_info.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\form_car_edit_info.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ui_posm_title_bar.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\ui_posm_title_bar.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_search_view.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_action.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ui_search_condition_bar.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\ui_search_condition_bar.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fragment_car_detail.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_car_detail.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_dealer_manage.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_dealer_manage.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\view_camera_album_dialog.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\view_camera_album_dialog.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ui_order_condition.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\ui_order_condition.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fragment_mac_manage.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_mac_manage.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ui_config_condition.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\ui_config_condition.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fragment_integration.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_integration.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ui_search.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\ui_search.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\guba_pull_to_refresh_footer.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\guba_pull_to_refresh_footer.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_dealer_permission_manage.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_dealer_permission_manage.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ui_loadmore_footer.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\ui_loadmore_footer.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ui_pull_to_refresh_header.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\ui_pull_to_refresh_header.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\view_loading_dialog.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\view_loading_dialog.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\item_listview_car_info.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\item_listview_car_info.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fragment_rectify.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_rectify.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ui_region_condition.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\ui_region_condition.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fragment_mark.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_mark.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_login.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_mark_page.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_mark_page.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_grade_detail.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_grade_detail.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fragment_rectify_result.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_rectify_result.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fragment_platform.xml",
+        "source": "E:\\workspace\\iris\\studio\\Cadillacsecond4.0\\my_library\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_platform.xml"
+    }
+]

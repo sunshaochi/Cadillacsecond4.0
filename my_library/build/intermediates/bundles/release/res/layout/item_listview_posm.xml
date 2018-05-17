@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="78dp"
+    android:background="@color/colorWhite"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp">
+
+    <RelativeLayout
+        android:id="@+id/rl_car_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="5dp">
+
+        <TextView
+            android:id="@+id/tv_dealer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="广州东昌凯帝"
+            android:textColor="@color/colorBlackText"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_grader"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@id/tv_dealer"
+            android:layout_marginTop="2dp"
+            android:text="打分人：RPC"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="20dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/ll_score"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:id="@+id/tv_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="80"
+                android:textSize="28sp"
+                android:textColor="@color/colorBlackText"
+                />
+
+            <TextView
+                android:id="@+id/tv_total_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="/100"
+                android:textSize="13sp"
+                android:textColor="@color/colorGreyText"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_to_grade"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:text="@string/to_grade"
+            android:textSize="18sp"
+            android:textColor="@color/colorGreenText"
+            android:visibility="invisible"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

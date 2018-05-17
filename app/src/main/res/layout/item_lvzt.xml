@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+<LinearLayout
+    android:id="@+id/ll_item"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_weight="1.5"
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#333333"
+            android:textSize="12sp"
+            android:text="车型"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <View
+        android:background="#bcb7b8"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"></View>
+
+    <LinearLayout
+        android:layout_weight="6"
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv_carname"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:text=""
+            android:textColor="#333333"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <View
+            android:background="#bcb7b8"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"></View>
+
+            <EditText
+                android:id="@+id/et_xzjd"
+                android:background="@null"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:text=""
+                android:textColor="#333333"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+        <View
+            android:background="#bcb7b8"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"></View>
+
+        <EditText
+                android:id="@+id/et_ecjd"
+                android:background="@null"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:text=""
+                android:textColor="#333333"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+        <View
+            android:background="#bcb7b8"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"></View>
+
+        <EditText
+                android:id="@+id/et_dd"
+                android:background="@null"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:text=""
+                android:textColor="#333333"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+        <View
+            android:background="#bcb7b8"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"></View>
+
+        <EditText
+            android:id="@+id/et_jc"
+                android:background="@null"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:text=""
+                android:textColor="#333333"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+
+
+
+    </LinearLayout>
+    <View
+        android:background="#bcb7b8"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"></View>
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+
+            <EditText
+                android:background="@null"
+                android:id="@+id/et_czdds"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:text=""
+                android:textColor="#333333"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <View
+                android:background="#bcb7b8"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"></View>
+
+            <EditText
+                android:inputType="number"
+                android:background="@null"
+                android:id="@+id/et_jetd"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:text=""
+                android:textColor="#333333"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <RelativeLayout
+            android:background="@mipmap/biaoge"
+            android:layout_width="50dp"
+            android:layout_height="match_parent">
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tv_dr"
+            android:background="@mipmap/biaoge"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#333333"
+            android:textSize="10sp"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tv_ylj"
+            android:background="@mipmap/biaoge"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#333333"
+            android:textSize="10sp"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <RelativeLayout
+            android:background="@mipmap/biaoge"
+            android:layout_width="50dp"
+            android:layout_height="match_parent">
+
+        </RelativeLayout>
+        <TextView
+            android:background="@mipmap/biaoge"
+            android:gravity="center"
+            android:text="新增\n进店"
+            android:textColor="#333333"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:background="@mipmap/biaoge"
+            android:gravity="center"
+            android:text="二次\n进店"
+            android:textColor="#333333"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:background="@mipmap/biaoge"
+            android:gravity="center"
+            android:text="订单"
+            android:textColor="#333333"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:background="@mipmap/biaoge"
+            android:gravity="center"
+            android:text="交车"
+            android:textColor="#333333"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:background="@mipmap/biaoge"
+            android:gravity="center"
+            android:text="订单"
+            android:textColor="#333333"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:background="@mipmap/biaoge"
+            android:gravity="center"
+            android:text="订单率"
+            android:textColor="#333333"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:background="@mipmap/biaoge"
+            android:gravity="center"
+            android:text="留存"
+            android:textColor="#333333"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+</LinearLayout>

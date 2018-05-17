@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:paddingLeft="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:paddingRight="100dp"
+                android:layout_weight="1"
+                android:textColor="@color/colorBlackText"
+                android:textSize="14sp"
+                android:text="GT6-28T 领先型（冯唐)16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@+id/tv_money"
+                android:textColor="@color/colorBlackText"
+                android:textSize="14sp"
+                android:text="白"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_money"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/colorBlackText"
+                android:textSize="14sp"
+                android:text="445500..."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="北京谦和"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_marginTop="20dp"
+            style="@style/view_line"></View>
+
+    </LinearLayout>
+
+</LinearLayout>
